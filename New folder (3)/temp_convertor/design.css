@@ -1,0 +1,64 @@
+
+body{
+     margin:0;
+    padding:0;
+   background-color: blue;
+    height:100vh;
+    text-align: center;
+     color:aliceblue;
+    
+}
+#box1{
+   position: relative;
+   left:30%;
+    
+   
+}
+#type1{
+    border:1px solid gray;
+
+}
+#box2{
+    
+    width: 40%;
+    background-color: lightblue;
+    border-radius: 20%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size:25px;
+   color:darkblue;
+}
+#final{
+    font-size: 30px;
+
+    color:red;
+}
+button{
+    padding: 10px;
+    width:150px;
+    height:50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin:20px;
+
+}
+select{
+    
+    width:150px;
+    height:60px;
+    font-size:25px
+}
+input{
+    height:60px;
+    width:250px;
+    font-size:20px;
+    color:blue;
+}
+button:hover{
+    box-shadow: 10px 10px 10px blue;
+}
+
+
+

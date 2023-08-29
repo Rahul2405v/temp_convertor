@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" type="image/x-icon" href="S.jpg">
+    <title>Temperature Convertor</title>
+</head>
+<body>
+    <h1 id="heading1" class="heading">WELCOME </h1>
+    <h2 id="heading2" class="heading">Temperature Convertor</h2>
+    <div id="box1">
+    
+     <div id="box2">
+   
+    <form>
+    <p>please select valid options</p>
+    <select id="select1" class="selector" required>
+        <option value="Celcius">celcius</option>
+        <option vlaue="fahrenheit">Fahrenheit</option>
+    </select>
+    <input type="number" id="input"   placeholder="enter the valid value">
+    <p>required type</p>
+    <select id="select2" class="selector" required>
+        <option value="Celcius">Celcius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    <h4 id="result">Result</h4>
+    <p id="final"> </p>
+    <button onclick="getResult()">Convert</button>
+   <!--<p style="height: 20px;"> </p>--> 
+    </form>
+   
+  
+</div>
+
+     </div>
+     <script src="execute.js"></script>
+</body>
+</html>
